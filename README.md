@@ -3,10 +3,10 @@ Amazon Contact Control Panel - Gathering information from calls and general tink
 
 -- BACKLOG
 
-A. LOW, easy: Play random song, non-repeating, by checking caller phone number
+  A. LOW, easy: Play random song, non-repeating, by checking caller phone number
 (caller-facing)
 
-B. MED, easy: Get duration of longest call holding in queue
+  B. MED, easy: Get duration of longest call holding in queue
 C. MED, medium: Get agent statistics: how quickly they pick up, how quickly they finish calls
 
 D. HIGH, easy: Get number of calls in queue
