@@ -2,6 +2,7 @@
 Amazon Contact Control Panel - Gathering information from calls and general tinkering
 
 -- BACKLOG
+
 A. LOW, easy: Play random song, non-repeating, by checking caller phone number
 (caller-facing)
 
@@ -16,6 +17,7 @@ G. HIGH, medium: For each call: Get caller number, get call duration (both hold 
 H. HIGH, medium: Lunch/Break alert/alarm (visual/sound)
 
 -- TODO
+
 H, G, E, 
 
 -- DOING
