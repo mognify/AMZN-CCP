@@ -1,0 +1,135 @@
+ HistoricalMetrics
+
+    The metrics to retrieve. Specify the name, unit, and statistic for each metric. The following historical metrics are available:
+
+    ABANDON_TIME
+
+        Unit: SECONDS
+
+        Statistic: AVG
+    AFTER_CONTACT_WORK_TIME
+
+        Unit: SECONDS
+
+        Statistic: AVG
+    API_CONTACTS_HANDLED
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CALLBACK_CONTACTS_HANDLED
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_ABANDONED
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_AGENT_HUNG_UP_FIRST
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_CONSULTED
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_HANDLED
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_HANDLED_INCOMING
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_HANDLED_OUTBOUND
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_HOLD_ABANDONS
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_MISSED
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_QUEUED
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_TRANSFERRED_IN
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_TRANSFERRED_IN_FROM_QUEUE
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_TRANSFERRED_OUT
+
+        Unit: COUNT
+
+        Statistic: SUM
+    CONTACTS_TRANSFERRED_OUT_FROM_QUEUE
+
+        Unit: COUNT
+
+        Statistic: SUM
+    HANDLE_TIME
+
+        Unit: SECONDS
+
+        Statistic: AVG
+    HOLD_TIME
+
+        Unit: SECONDS
+
+        Statistic: AVG
+    INTERACTION_AND_HOLD_TIME
+
+        Unit: SECONDS
+
+        Statistic: AVG
+    INTERACTION_TIME
+
+        Unit: SECONDS
+
+        Statistic: AVG
+    OCCUPANCY
+
+        Unit: PERCENT
+
+        Statistic: AVG
+    QUEUE_ANSWER_TIME
+
+        Unit: SECONDS
+
+        Statistic: AVG
+    QUEUED_TIME
+
+        Unit: SECONDS
+
+        Statistic: MAX
+    SERVICE_LEVEL
+
+        Unit: PERCENT
+
+        Statistic: AVG
+
+        Threshold: Only "Less than" comparisons are supported, with the following service level thresholds: 15, 20, 25, 30, 45, 60, 90, 120, 180, 240, 300, 600
+
+    Type: Array of HistoricalMetric objects
+
+    Required: Yes
